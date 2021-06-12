@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+
+<meta property="og:title" content="Storytelling with Data – Part One" />
+<meta property="og:description" content="Read time: 5 minutes" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://usd-msads.github.io/blog/2020-09-10/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2020-09-10T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2020-09-10T00:00:00&#43;00:00" />
+
+
+
+<meta name="description" content="Master of Applied Data Science at University of San Diego" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>USD MS-ADS</title>
+    
+<link rel="icon" type="image/png" href="/images/favicon.png">
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.ee13e41cdb590d3624346a32a6fd57965683653fb98be728e2376694f94a1c79.css">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+<link rel="stylesheet" href="/css/bootstrap-table.css">
+<link rel="stylesheet" href="/css/anchor.css">
+<link rel="stylesheet" href="/css/horizontal_list.css">
+<link rel="stylesheet" href="/css/background-image.css">
+
+  </head>
+  <body>
+    
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+
+    
+
+    
+
+
+
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/ms_ads.png" alt="USD MS-ADS" width="233" height="70" style="object-fit: cover;">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Program
+            </a>
+
+            <div class="navbar-dropdown">
+              <a href="/about_msads" class="navbar-item">
+                About
+              </a>
+              <a href="/vision" class="navbar-item">
+                Our Vision
+              </a>
+              <a href="/about/curriculum" class="navbar-item">
+                Curriculum
+              </a>
+              <a href="/about/calendar" class="navbar-item">
+                Calendar
+              </a>
+              <a href="/about/rankings" class="navbar-item">
+                Rankings
+              </a>
+              <a href="/about/faq" class="navbar-item">
+                FAQ
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Capstone
+            </a>
+
+            <div class="navbar-dropdown">
+              <a href="/partnership" class="navbar-item">
+                Partnership
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Resources
+            </a>
+
+            <div class="navbar-dropdown">
+              <a href="/resources" class="navbar-item">
+                Materials
+              </a>
+              <a href="https://www.sandiego.edu/soles/current/writing-center.php" class="navbar-item">
+                Writing Center
+              </a>
+              <a href="/workshops" class="navbar-item">
+                Workshops
+              </a>
+              <a href="/interviews" class="navbar-item">
+                Interview Resources
+              </a>
+              <a href="https://onlinedegrees.sandiego.edu/resources/data-science-self-assessment/" class="navbar-item">
+                Self-Assessment Test
+              </a>
+            </div>
+          </div>
+          <a href="https://onlinedegrees.sandiego.edu/blog/data-science/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=msads%20github&amp;utm_term=github%20blog" class="navbar-item is-secondary">
+            Blogs
+          </a>
+          <a href="https://onlinedegrees.sandiego.edu/masters-applied-data-science/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=msads%20github&amp;utm_term=github%20home" class="navbar-item is-secondary">
+            Official Website
+          </a>
+          <a href="https://onlinedegrees.sandiego.edu/request-info/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=msads%20github&amp;utm_term=github%20request%20info" class="navbar-item">
+            <span class="button signup-button rounded secondary-btn raised">
+              Contact
+            </span>
+          </a>
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/ms_ads.png" alt="Citizen Labs" width="233" height="70" style="object-fit: cover;">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Program
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="/about_msads" class="navbar-item">
+              About
+            </a>
+            <a href="/vision" class="navbar-item">
+              Our Vision
+            </a>
+            <a href="/about/curriculum" class="navbar-item">
+              Curriculum
+            </a>
+            <a href="/about/calendar" class="navbar-item">
+              Calendar
+            </a>
+            <a href="/about/rankings" class="navbar-item">
+              Rankings
+            </a>
+            <a href="/about/faq" class="navbar-item">
+              FAQ
+            </a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Capstone
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="/partnership" class="navbar-item">
+              Partnership
+            </a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Resources
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="/resources" class="navbar-item">
+              Materials
+            </a>
+            <a href="https://www.sandiego.edu/soles/current/writing-center.php" class="navbar-item">
+              Writing Center
+            </a>
+            <a href="/workshops" class="navbar-item">
+              Workshops
+            </a>
+            <a href="/interviews" class="navbar-item">
+              Interview Resources
+            </a>
+            <a href="https://onlinedegrees.sandiego.edu/resources/data-science-self-assessment/" class="navbar-item">
+              Self-Assessment Test
+            </a>
+          </div>
+        </div>
+        <a href="https://onlinedegrees.sandiego.edu/blog/data-science/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=msads%20github&amp;utm_term=github%20blog" class="navbar-item is-secondary">
+          Blogs
+        </a>
+        <a href="https://onlinedegrees.sandiego.edu/masters-applied-data-science/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=msads%20github&amp;utm_term=github%20home" class="navbar-item is-secondary">
+          Official Website
+        </a>
+        <a href="https://onlinedegrees.sandiego.edu/request-info/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=msads%20github&amp;utm_term=github%20request%20info" class="navbar-item">
+          <span class="button signup-button rounded secondary-btn raised">
+            Contact
+          </span>
+        </a>
+      </div>
+    </div>
+</div>
+</nav>
+
+
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">Storytelling with Data – Part One</h1>
+        <h5 class="subtitle is-5 is-muted"></h5>
+        
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+
+    
+
+    
+    <div id="backtotop"><a href="#"></a></div>
+
+    
+    
+<div class="sidebar">
+  <div class="sidebar-header">
+    <img src="/images/logos/fresh-white-alt.svg">
+    <a class="sidebar-close" href="javascript:void(0);">
+      <i data-feather="x"></i>
+    </a>
+  </div>
+  <div class="inner">
+    <ul class="sidebar-menu">
+      
+      <li>
+        <a href="http://usd-msads.github.io/blog/2021-01-15/">
+          Machine Learning vs. Statistics
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://usd-msads.github.io/blog/2020-10-25/">
+          Master&#39;s Comparisons [Data Science vs. Analytics vs. 3 More]
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://usd-msads.github.io/blog/2020-10-10/">
+          Storytelling with Data – Part Two (Let’s Practice)
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://usd-msads.github.io/blog/2020-09-25/">
+          Data Scientist Salaries — High Pay in an Exciting, In-Demand Field
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://usd-msads.github.io/blog/2020-09-10/">
+          Storytelling with Data – Part One
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://usd-msads.github.io/blog/2020-09-05/">
+          Want to Work in Data Science? Career Outlook, Salaries &amp; Skills for 7 Data Science Jobs
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://usd-msads.github.io/blog/2020-08-27/">
+          Tools of the Trade: R vs. Python
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,111 @@
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-image {
+  background-image: url("../images/main_campus2.jpg");
+  /*background-color: rgba(255, 0, 0, 0.6);*/
+  height: 700px;
+  /*width: 500px;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+}
+
+.hero-image-about {
+  background-image: url("../images/people.jpg");
+  /*background-color: rgba(255, 0, 0, 0.6);*/
+  height: 700px;
+  /*width: 1800px;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+}
+
+.hero-image-vision {
+  background-image: url("../images/vision.jpg");
+  /*background-color: rgba(255, 0, 0, 0.6);*/
+  height: 700px;
+  width: 1800px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+}
+
+.hero-image-curriculum {
+  background-image: url("../images/curri.jpg");
+  /*background-color: rgba(255, 0, 0, 0.6);*/
+  height: 700px;
+  width: 1800px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+}
+
+.hero-text-curriculum {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.hero-image-calendar {
+  background-image: url("../images/calendar.jpg");
+  /*background-color: rgba(255, 0, 0, 0.6);*/
+  height: 700px;
+  width: 1800px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+}
+
+.hero-image-awards {
+  background-image: url("../images/main_campus2.jpg");
+  /*background-color: rgba(255, 0, 0, 0.6);*/
+  height: 700px;
+  width: 1800px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+}
+
+.hero-image-faq {
+  background-image: url("../images/faq.png");
+  /*background-color: rgba(255, 0, 0, 0.6);*/
+  height: 700px;
+  width: 1700px;
+  background-position: bottom;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  left: 0;
+}

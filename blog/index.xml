@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on USD MS-ADS</title>
+    <link>http://usd-msads.github.io/blog/</link>
+    <description>Recent content in Blogs on USD MS-ADS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://usd-msads.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning vs. Statistics</title>
+      <link>http://usd-msads.github.io/blog/2021-01-15/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://usd-msads.github.io/blog/2021-01-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Master&#39;s Comparisons [Data Science vs. Analytics vs. 3 More]</title>
+      <link>http://usd-msads.github.io/blog/2020-10-25/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://usd-msads.github.io/blog/2020-10-25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storytelling with Data – Part Two (Let’s Practice)</title>
+      <link>http://usd-msads.github.io/blog/2020-10-10/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://usd-msads.github.io/blog/2020-10-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Scientist Salaries — High Pay in an Exciting, In-Demand Field</title>
+      <link>http://usd-msads.github.io/blog/2020-09-25/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://usd-msads.github.io/blog/2020-09-25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storytelling with Data – Part One</title>
+      <link>http://usd-msads.github.io/blog/2020-09-10/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://usd-msads.github.io/blog/2020-09-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Want to Work in Data Science? Career Outlook, Salaries &amp; Skills for 7 Data Science Jobs</title>
+      <link>http://usd-msads.github.io/blog/2020-09-05/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://usd-msads.github.io/blog/2020-09-05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools of the Trade: R vs. Python</title>
+      <link>http://usd-msads.github.io/blog/2020-08-27/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://usd-msads.github.io/blog/2020-08-27/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
